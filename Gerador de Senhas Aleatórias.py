@@ -7,7 +7,7 @@ min = 'abcdefghijklmnopqrstuvwxyz'
 max = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 simb = '._#-@&!'
 
-# Programa
+# Programa Principal
 def programa():
   caract = number + min + max + simb
   control = 0
