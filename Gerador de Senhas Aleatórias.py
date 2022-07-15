@@ -16,8 +16,8 @@ def programa():
         if control == 0:
           q = int(input('\nQuantas senhas deverão ser criadas?\n> '))
           tam = int(input('\nQual deverá ser o tamanho da(s) senha(s)?\n> '))
-          if q == 0:
-              print('\nO número de senhas é nulo.')
+          if q == 0 or tam == 0:
+              print('\nInformação Nula! Tente novamente.')
           else:
             for i in range(q):
                 senha = ''.join(r.sample(caract, tam))
